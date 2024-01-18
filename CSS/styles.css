@@ -1,0 +1,81 @@
+body {
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-transform: none;
+  font-weight: 400;
+
+}
+
+p {
+  color: black;
+  font-family: 'Recursive', sans-serif;
+}
+
+h5 {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Sacramento', cursive;
+  color: black;
+  font-size: 2.5rem;
+}
+
+/* Header */
+.nav-item {
+  font-size: 11px;
+  letter-spacing: 2px;
+  padding: 0 18px;
+}
+
+.navbar-custom {
+  /* background-color: #FFC0B4 */
+  background-color: #EEC7BC;
+  /* #FFA5B0 */
+}
+
+.header-img {
+  color: #fff !important;
+}
+
+.icon {
+  color: #fff;
+}
+
+/* heading */
+#name-heading {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.heading-1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: 200;
+  color: #000000;
+  letter-spacing: 10px;
+}
+
+p.name {
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
+  padding-top: 10px;
+}
+
+/* Navbar */
+.top-hr {
+  border-style: solid none none;
+  border-width: 1px;
+  border-color: #B76E79;
+  width: 85%;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+/* carousel */
+.carousel-image {
+  height: 540px;
+  width: 70%;
+}
+
+.carousel-inner {
+  padding: 1% 10%;
+}
