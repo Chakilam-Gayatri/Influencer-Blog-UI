@@ -1,0 +1,222 @@
+
+p {
+  color: black;
+  font-family: 'Recursive', sans-serif;
+}
+
+h5 {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Sacramento', cursive;
+  color: black;
+  font-size: 2.5rem;
+}
+
+/* Header */
+.nav-item {
+  font-size: 11px;
+  letter-spacing: 2px;
+  padding: 0 18px;
+}
+
+.navbar-custom {
+  /* background-color: #FFC0B4 */
+  background-color: #EEC7BC;
+  /* #FFA5B0 */
+}
+
+.navbar-toggler{
+  border:none;
+}
+
+.header-img {
+  color: #fff !important;
+}
+
+.icon {
+  color: #fff;
+}
+
+.footer-icon{
+  color:#fff;
+  padding: 10px;
+  font-size: 13px;
+}
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #EEC7BC;
+  margin-top: 20px;
+}
+
+/* heading */
+#name-heading {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.heading-1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: 200;
+  color: #000000;
+  letter-spacing: 10px;
+}
+
+p.name {
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
+  padding-top: 10px;
+}
+
+/* Navbar */
+.top-hr {
+  border-style: solid none none;
+  border-width: 1px;
+  border-color: #B76E79;
+  width: 90%;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+/* carousel */
+.carousel-image {
+  height: 540px;
+  width: 70%;
+}
+
+.carousel-inner {
+  padding: 1% 10%;
+}
+
+.button{
+  background-color: #EEC7BC;
+  border:none;
+}
+
+.card-text{
+  margin-top:15px;
+}
+
+.card-down{
+  width: 250px;
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/img1.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("images/img2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("images/img3.jpg");
+  min-height: 500px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #EEC7BC;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+ .border{
+   background-color:transparent;
+   font-size:25px;
+   color: #f7f7f7;
+ }
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align:center;
+}
+
+.about-content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.bgimg1-content{
+  color: #777;
+  text-align:center;
+  padding:5% 10%;
+  text-align: justify;
+  height:800px;
+  position: relative;
+}
+
+.about-page::before {
+      content: "";
+      background-image: url("images/about-background.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+}
+
+.bgimg-content{
+position:relative;
+}
+
+.bgimg2-innercontent{
+  color:#ddd;
+  background-color:#fff;
+  text-align:center;
+  padding:5%;
+  text-align: justify;
+}
+
+.bgimg-innercontent{
+  color:#ddd;
+  background-color:#fff;
+  text-align:center;
+  padding:5%;
+  text-align: justify;
+}
+
+.
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
